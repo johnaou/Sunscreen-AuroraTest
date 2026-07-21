@@ -1,0 +1,13 @@
+# Core: Aurora + PyTorch (pulls torch, numpy, etc.)
+microsoft-aurora==2.0.0
+torch==2.13.0
+numpy==2.5.1
+
+# Data access & I/O
+cdsapi==0.7.7            # ERA5 from the Copernicus CDS (Tests 2 & 3)
+xarray==2026.7.0
+netcdf4==1.7.4           # read ERA5 NetCDF
+cfgrib==0.9.15.1         # read NCAR RDA HRES GRIB (Test 1)
+eccodes==2.47.0          # GRIB backend for cfgrib
+requests==2.34.2         # download HRES files from NCAR RDA (Test 1)
+huggingface_hub==1.23.0  # model checkpoints + static pickles

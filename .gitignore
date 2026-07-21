@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Downloaded data (large; regenerated from CDS / NCAR RDA)
+era5_cache/
+rda_cache/
+*.nc
+*.grb
+*.grib
+*.idx
+
+# Generated forecast output
+*_wind.csv
+wind_forecast.csv
+
+# HuggingFace / model cache
+.cache/
+
+# OS
+.DS_Store
